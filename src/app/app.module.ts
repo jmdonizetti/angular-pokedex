@@ -1,22 +1,23 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, provideClientHydration, withEventReplay } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+//components
 import { AppComponent } from './app.component';
 
 //modules
+import { AppRoutingModule } from './app-routing.module';
 import { PagesModule } from './pages/pages.module';
 
 //components
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PagesModule
+    PagesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
