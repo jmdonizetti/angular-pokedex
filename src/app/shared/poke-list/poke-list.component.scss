@@ -54,8 +54,7 @@ $padding: rem-calc(20);
 
             border-radius: rem-calc(50);
 
-            width: rem-calc(58);
-
+            width: rem-calc(20);
             margin-bottom: rem-calc(5);
 
             padding: rem-calc(5);
@@ -82,6 +81,20 @@ $padding: rem-calc(20);
         img{
           width: rem-calc(70);
         }
+      }
+    }
+
+    @media (max-width: 400px) {
+      a {
+        width: 100% !important;
+      }
+
+      .pokemon__status > ul > li{
+        width: rem-calc(60);
+        height: rem-calc(20);
+
+        font-size: rem-calc(13);
+        font-weight: 500;
       }
     }
   }
