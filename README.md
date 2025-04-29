@@ -1,7 +1,7 @@
 # Pokedex João Marcos Dev-Front-end Angular
 
-![jmdonizetti github io_angular-pokedex_](https://github.com/user-attachments/assets/fda3e213-1fc7-4721-a1e0-36e87425d111)
 
+![jmdonizetti github io_angular-pokedex_details_1](https://github.com/user-attachments/assets/e9e38482-6af0-4b40-922b-6f29a5ec4a40)
 
 
 
