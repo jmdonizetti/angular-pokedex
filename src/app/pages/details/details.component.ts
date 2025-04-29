@@ -18,6 +18,7 @@ export class DetailsComponent implements OnInit{
   public isLoading: boolean = false;
   public apiError: boolean = false
 
+
   constructor(
     private activetedRouter: ActivatedRoute,
     private pokeApiService: PokeApiService

@@ -12,8 +12,11 @@ const routes: Routes = [
   },
   {
     path: 'details/:id',
-    component: DetailsComponent
-    }
+    component: DetailsComponent,
+
+
+    data: { renderMode: 'client' } //Para criar o dist para o gh-pages
+    },
 ];
 
 @NgModule({
